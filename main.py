@@ -1,11 +1,11 @@
 import hate
 import like
-def main(like, hate):
+def main(like, hate, cart):
   hate.hate(hate)
-  return like.like(like)
+  return like.like(like) + cart
 
 cart_number = [1, 2, 3, 4]
-def cart(like, cart_num):
+def cart():
     if like == False:
         if cart_num == 1:
             print("cart")
