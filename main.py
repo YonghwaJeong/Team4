@@ -1,2 +1,5 @@
-def main():
-	return 0
+import hate
+
+def main(hate):
+	return hate.hate(hate)	
+
