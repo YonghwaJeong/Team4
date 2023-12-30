@@ -1,5 +1,7 @@
-def main():
-	return 0
+import like
+
+def main(like):
+	return like.like(like)
 
 cart_number = [1, 2, 3, 4]
 def cart(like, cart_num):
