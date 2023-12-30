@@ -1,5 +1,8 @@
-def main(cart):
-	return cart.cart(cart)
+import hate
+import like
+def main(like, hate, cart):
+  hate.hate(hate)
+  return like.like(like) + cart
 
 cart_number = [1, 2, 3, 4]
 def cart():
@@ -19,3 +22,12 @@ def cart():
                 if hate == True:
                     return
     return 4
+
+def love():
+    if like == True:
+        print(I hate you too)
+        print(f"goodbye") 
+    else:
+        like()
+
+		return 3
