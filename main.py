@@ -2,7 +2,7 @@ import hate
 import like
 def main(like, hate):
   hate.hate(hate)
-	return like.like(like)
+  return like.like(like)
 
 cart_number = [1, 2, 3, 4]
 def cart(like, cart_num):
