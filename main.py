@@ -1,5 +1,7 @@
+import hate
 import like
-def main(like):
+def main(like, hate):
+  hate.hate(hate)
 	return like.like(like)
 
 cart_number = [1, 2, 3, 4]
